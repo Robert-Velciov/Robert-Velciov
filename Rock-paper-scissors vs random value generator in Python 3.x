@@ -46,13 +46,13 @@ def main_func():
 
 
 def try_again():
-    e = input("\nTry again? (y/n): ")
-    if e == 'y':
+    d = input("\nTry again? (y/n): ")
+    if d == 'y':
         main_func()
-    elif e != 'y' and e != 'n':
+    elif d != 'y' and d != 'n':
         print("Invalid entry")
         try_again()
-    elif e == 'n':
+    elif d == 'n':
         sys.exit()
 
 
