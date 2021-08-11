@@ -57,7 +57,6 @@ def main_func():
             print("Number of tries: " + str(try_counter))
             b = input("Guess again: ")
 
-
     try_again()
 
 main_func()
